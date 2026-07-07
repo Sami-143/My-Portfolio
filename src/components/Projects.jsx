@@ -11,7 +11,7 @@ const projects = [
     isFeatured: true,
     description: 'AI-Powered assistant for Incident Resolution — FYP. Architected an AI-powered log intelligence platform to reduce MTTR through real-time incident analysis and contextual root-cause detection. Designed Python & Node.js libraries for structured logging with request-level correlation. Engineered fault-tolerant Kafka-based ingestion pipeline and a cost-aware RAG pipeline integrating server logs and GitHub commits. Led all Web Dashboard development.',
     tech: ['Node.js', 'Python', 'RAG', 'Kafka', 'React', 'MongoDB'],
-    links: [],
+    links: [{ href: 'https://logiscout.vercel.app/', icon: <FaExternalLinkAlt />, label: 'Live' }],
   },
   {
     title: 'Work Nexus',
@@ -27,7 +27,7 @@ const projects = [
     icon: <FaShoppingCart />,
     description: 'Full-stack web app with user authentication, product management, cart, and order handling. MongoDB for storage with React frontend, deployed on Heroku.',
     tech: ['MongoDB', 'Express.js', 'React', 'Node.js'],
-    links: [{ href: 'https://github.com/Sami-143/e-Commerece-App', icon: <FaGithub />, label: 'Code' }],
+    links: [{ href: 'https://e-commerece-app-ecru.vercel.app/', icon: <FaExternalLinkAlt />, label: 'Live' }],
   },
   {
     title: 'Traffic Accident Alert',
